@@ -10,4 +10,10 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex', justifyContent: 'space-between',
   },
+  link:{
+    color: 'white',
+    fontSize: '1.2rem',
+    textDecoration: 'none',
+    marginRight: 50
+  },
 }));

@@ -11,6 +11,9 @@ const Header = () => {
             <Typography variant="h5" className={classes.title}>
                 EV Charging Stations
             </Typography>
+            <Box display="flex">
+            <Link className={classes.link} to="/contact">Contact</Link>
+            </Box>
         </Toolbar>
         </AppBar>);
 }
